@@ -1,0 +1,25 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "client": "npm start --prefix ./frontend",
+    "server": "npm run server --prefix ./backend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DileepAmrani/mern-stack-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DileepAmrani/mern-stack-blog/issues"
+  },
+  "homepage": "https://github.com/DileepAmrani/mern-stack-blog#readme"
+}
